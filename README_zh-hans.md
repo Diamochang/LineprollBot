@@ -3,7 +3,7 @@ LineprollBot 是一个为“线性滚动Bot”创建的仓库，用于存放实�
 # “线性滚动Bot”是谁？
 这缘起于 Miraheze 农场曾托管，现已关闭的 DiamoWiki。Diamochang 曾在该wiki上创建名为“DiamoWiki-AWBRobot”的全域账号，准备通过这个账号操作 [AutoWikiBrowser](https://zh.wikipedia.org/wiki/Wikipedia:AutoWikiBrowser) 执行自动化任务。结果，技术还没搞好，DiamoWiki 于 2022 年关站了，Diamochang 本人因此退出 MediaWiki 建站领域，此机器人就此胎死腹中。
 
-2023 年中，Diamochang 向 Miraheze 申请创建“[明安里市 Wiki](https://minganlicity.miraheze.org)”，申请获批，就此重回 MediaWiki 建站领域。此时的他已经接触 Python，希望将以前注册的全域机器人账号重新利用，结果——他把机器人的登录密码忘了。没办法，他只好重新注册一个全域账号，[LineprollBot](https://login.miraheze.org/wiki/User:LineprollBot)（线性滚动Bot）就此诞生。
+2023 年中，Diamochang 向 Miraheze 申请创建“[明安里市 Wiki](https://minganlicity.miraheze.org)”，申请获批，就此重回 MediaWiki 建站领域。此时的他已经接触 Python，希望将以前注册的全域机器人账号重新利用，结果——他把机器人的登录密码忘了。没办法，他只好重新注册一个全域账号，[LineprollBot](https://login.miraheze.org/wiki/User:LineprollBot)（线性滚动Bot）诞生。
 
 # 技术
 线性滚动Bot使用 Python，不过特殊情况也会使用 PHP 和 JavaScript。目前所有功能实现均依靠 Python，所使用的 Bot 包如下：
@@ -21,7 +21,7 @@ LineprollBot 是一个为“线性滚动Bot”创建的仓库，用于存放实�
 # 参与和改进
 如果机器人有问题，可以向这个仓库提 Issues；如果有建议，欢迎 PR。
 
-如果问题和建议有关明安里市系列网站，且你在 Miraheze 拥有全域账号，也可以在提出 Issues 和 PR 之后到[这里](https://minganlicity.miraheze.org/wiki/User_talk:LineprollBot/Issues)把问题和建议再说一遍。你可以直接把 Github 的描述复制过来然后 wikitext 化，也可以以对着女孩子说话的口吻把它们复述一遍（因为这个机器人在明安里市世界观内是一位女性机械生命体）。只要我看得懂，沟通基本不成问题。
+如果问题或建议有关明安里市系列网站，且你在 Miraheze 拥有全域账号，也可以在提出 Issues 或 PR 之后到[这里](https://minganlicity.miraheze.org/wiki/User_talk:LineprollBot/Issues)把问题和建议再说一遍。你可以直接把 Github 的描述复制过来然后 wikitext 化，也可以以对着女孩子说话的口吻把它们复述一遍（因为这个机器人在明安里市世界观内是一位女性机械生命体）。只要我看得懂，沟通基本不成问题。
 
 # 许可证
 由于使用的包许可证多样，为防止冲突，本仓库不设统一的许可证。如果要以我的代码为基础编写新的机器人，记得多关注一下上游的许可证，以免冲突。
